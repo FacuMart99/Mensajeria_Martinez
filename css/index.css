@@ -1,0 +1,203 @@
+/*RESET*/
+
+*,
+*::before
+*::after { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*GLOBALS*/
+
+html {
+font-size: 62.5%;
+    font-family: var(--font-primary);
+}
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+    }
+
+/*HELPERS*/
+
+
+
+
+body {
+   
+    min-height: 100vh;
+}
+
+header {
+    background-color: #000000;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+.menu {
+    display: flex;
+    list-style-type: none;
+    gap: 4rem;
+}
+header .Logo{
+    flex-basis: 15%;
+}
+
+header .menu {
+    font-size: 2.5em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.foto___inicio {
+    margin-left: 500px;
+    width: 55%;
+    
+    
+}
+section .section_inicio {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+ul .titulo__servicios {
+    font-size: 6em;
+}
+
+ul .titulo__item {
+    font-size: 2.5em;
+}
+
+.izq {
+    grid-column: 1 / 3;
+}
+
+.der {
+    grid-column: 3 / 4;
+}
+
+/*QUIENES SOMOS*/
+
+.qs {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2.5em;
+}
+
+/*SERVICIOS*/
+
+.sv {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 5em;
+}
+
+.sv_item {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 4em;
+}
+
+.olo {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.izquierda {
+    grid-column: 1 / 3;
+}
+
+.derecha {
+    grid-column: 3 / 5;
+}
+
+
+/*TARIFARIO*/
+
+.letra {
+    font-size: 3em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+.main_tari {
+    margin-top: 200px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.izqui {
+    grid-column: 2 / 3;
+}
+
+.dere {
+    grid-column: 4 / 5;
+}
+
+/*CONTACTO*/
+.main__contacto {
+    font-size: 3em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+
+/*FOOTER*/
+
+.footer__ul{
+    background-color: var(--Secondary);
+    color: white;
+    min-height: 10vh;
+    font-size: 2.5em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    gap: 65rem;
+
+    
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*VARIABLES*/
+:root {
+    --Secondary: #000000;
+    --Primary: #FFFFFF;
+    --font-primary: Arial, Helvetica, sans-serif;
+    --text-md: 2em;
+    --text-lg: 2em; 
+
+}
+
+
+
+
+
