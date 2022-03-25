@@ -32,7 +32,7 @@ body {
 }
 
 header {
-    background-color: #000000;
+    background: linear-gradient(to right top, #000000, #292524, #4c4541, #6e6a5f, #8d9283);
     color: #FFFFFF;
     display: flex;
     align-items: center;
@@ -53,11 +53,12 @@ header .menu {
     font-size: 2.5em;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
 .foto___inicio {
     margin-left: 500px;
     width: 55%;
-    
-    
+    transform: scaleX(1.5);
+        
 }
 section .section_inicio {
     display: grid;
@@ -147,7 +148,7 @@ ul .titulo__item {
 /*FOOTER*/
 
 .footer__ul{
-    background-color: var(--Secondary);
+    background: linear-gradient(to right top, #000000, #292524, #4c4541, #6e6a5f, #8d9283);
     color: white;
     min-height: 10vh;
     font-size: 2.5em;
