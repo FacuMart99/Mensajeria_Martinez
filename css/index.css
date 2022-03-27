@@ -25,13 +25,14 @@ a {
 
 
 
-
+/*
 body {
    
     min-height: 100vh;
 }
 
-header {
+
+.header {
     background: linear-gradient(to right top, #000000, #292524, #4c4541, #6e6a5f, #8d9283);
     color: #FFFFFF;
     display: flex;
@@ -79,7 +80,7 @@ ul .titulo__item {
 
 .der {
     grid-column: 3 / 4;
-}
+}*/
 
 /*QUIENES SOMOS*/
 
@@ -156,9 +157,20 @@ ul .titulo__item {
     display: flex;
     list-style-type: none;
     align-items: center;
-    gap: 65rem;
+    gap: 60rem;
 
     
+    }
+    
+
+
+    /*INICIOBTS*/
+    .nav-link {
+        color: #000000;
+    }
+
+    body {
+        min-height: 100vh;
     }
 
 
