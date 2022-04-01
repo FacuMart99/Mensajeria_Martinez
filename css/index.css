@@ -21,19 +21,18 @@ a {
     color: inherit;
     }
 
-/*HELPERS*/
 
 
 
-/*
+
+
 body {
-   
     min-height: 100vh;
 }
 
 
 .header {
-    background: linear-gradient(to right top, #000000, #292524, #4c4541, #6e6a5f, #8d9283);
+    background: whitesmoke;
     color: #FFFFFF;
     display: flex;
     align-items: center;
@@ -41,19 +40,29 @@ body {
     gap: 2rem;
 }
 
-.menu {
+.header__menu {
     display: flex;
     list-style-type: none;
     gap: 4rem;
+    font-size: 2.5em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #000000;
 }
-header .Logo{
+header .header__logo{
     flex-basis: 15%;
 }
 
-header .menu {
-    font-size: 2.5em;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+/*INICIO MAIN*/
+
+
+.inicio__titulo {
+    color: red;
+    text-align: center;
+    font-size: 6em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+
 
 .foto___inicio {
     margin-left: 500px;
@@ -61,28 +70,37 @@ header .menu {
     transform: scaleX(1.5);
         
 }
-section .section_inicio {
+section .principal__inicio {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
 
-ul .titulo__servicios {
+ul .principal__servicios {
     font-size: 6em;
 }
 
-ul .titulo__item {
+ul .principal__item {
     font-size: 2.5em;
 }
 
 .izq {
     grid-column: 1 / 3;
+    margin-left: 10rem;
 }
 
 .der {
     grid-column: 3 / 4;
-}*/
+}
+
 
 /*QUIENES SOMOS*/
+.qs__titulo {
+    color: red;
+    text-align: center;
+    font-size: 6em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
 
 .qs {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -91,31 +109,32 @@ ul .titulo__item {
 
 /*SERVICIOS*/
 
-.sv {
+.servicios__titulo {
+    color: red;
+    text-align: center;
+    font-size: 6em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.sv__letra {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 5em;
+    font-size: 2.5em;
 }
 
-.sv_item {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 4em;
-}
-
-.olo {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-}
-
-.izquierda {
-    grid-column: 1 / 3;
-}
-
-.derecha {
-    grid-column: 3 / 5;
+.margint {
+    margin-top: 5rem;
 }
 
 
 /*TARIFARIO*/
+
+.tarifario__titulo {
+    color: red;
+    text-align: center;
+    font-size: 6em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
 .letra {
     font-size: 3em;
@@ -138,6 +157,13 @@ ul .titulo__item {
 }
 
 /*CONTACTO*/
+
+.contacto__titulo { color: red;
+    text-align: center;
+    font-size: 6em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
 .main__contacto {
     font-size: 3em;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
