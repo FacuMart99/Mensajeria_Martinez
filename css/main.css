@@ -1,0 +1,20 @@
+/* partials*/
+header {
+  background: whitesmoke;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2rem; }
+  header .header__item {
+    border: 0.2rem solid var(--Primary); }
+  header .header__item:hover {
+    border-color: var(--Secondary);
+    transition: border-color .4s ease-in-out; }
+  header .header__menu {
+    display: flex;
+    list-style-type: none;
+    gap: 4rem;
+    font-size: 2.5em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #000000; }
