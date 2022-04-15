@@ -1,2 +1,18 @@
+/*IMPORTS*/
+
+/*MOCELANEOUS*/
+
+@import './misc/variables';
+@import './misc/normalize';
+@import './misc/mixins';
+
 /* partials*/
 @import './partials/header';
+@import './partials/footer';
+
+/*VIEWS*/
+@import './views/inicio';
+@import './views/QuienesSomos';
+@import './views/servicios';
+@import './views/tarifario';
+@import './views/contacto';

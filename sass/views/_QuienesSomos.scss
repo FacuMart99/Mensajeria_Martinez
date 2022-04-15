@@ -1,16 +1,12 @@
-.servicios__titulo {
+.qs__titulo {
     color: red;
     text-align: center;
     font-size: map-get($font-size, XL );
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
 
-}
 
-.sv__letra {
+.qs {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size:  map-get($font-size, medium);
-}
-
-.margint {
-    margin-top: 5rem;
+    font-size: map-get($font-size, medium )
 }
