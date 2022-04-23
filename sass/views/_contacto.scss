@@ -2,9 +2,42 @@
     text-align: center;
     font-size: map-get($font-size, XL );
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
 }
-.main__contacto {
+
+.contacto__main {
     font-size: 3em;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+form {
+    background-color: rgb(228, 220, 220);
+    padding: 4rem;
+    max-width: 800px;
+    text-align: left;
+    
+    
+}
+
+form input {
+    padding: 2rem;
+    margin-top: 2rem;
+}
+form input:focus {
+    outline: none;
+}
+
+
+.input__mensaje{
+    padding: 8rem;
+    width: 32rem;
+}
+
+.input__telefono {
+    width: 32rem;
+}
+.input__mail {
+    margin-left: 5.5rem;
+   
+    
+    
 }
