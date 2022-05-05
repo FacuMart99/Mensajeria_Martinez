@@ -14,3 +14,19 @@
 .margint {
     margin-top: 5rem;
 }
+
+@media screen and (max-width: 480px) {
+    
+    .navbar {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: start;
+        
+       }
+       .header__menu {
+        font-size: 2rem;
+     }
+
+    
+     }
+    

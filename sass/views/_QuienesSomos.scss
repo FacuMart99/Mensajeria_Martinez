@@ -10,3 +10,30 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: map-get($font-size, medium )
 }
+
+@media screen and (max-width: 480px) {
+    
+    .navbar {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: start;
+        
+       }
+       .header__menu {
+        font-size: 2rem;
+       }
+
+       .foto___inicio {
+        margin-left: 200px;
+        max-width: 100%;
+    }
+
+       main {
+        max-width: 480px ;
+       }
+       
+       .qs__item {
+           font-size: 1em;
+       }
+    
+    }

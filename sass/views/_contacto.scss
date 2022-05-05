@@ -38,6 +38,21 @@ form input:focus {
 .input__mail {
     margin-left: 5.5rem;
    
+    }
+    @media screen and (max-width: 480px) {
     
-    
-}
+        .navbar {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: start;
+            
+           }
+           .header__menu {
+            font-size: 2rem;}
+
+            form {
+                background-color: white;
+            }
+
+         }
+           
